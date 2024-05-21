@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link href="./css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="py-[24px]">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <div class="flex justify-between items-center">
+          <a href="/" class="">
+            <img
+              src="./assets/img/logo.svg"
+              alt="Лого"
+              class="hidden lg:block"
+            />
+            <img
+              src="./assets/img/logo-mobile.svg"
+              alt="Лого мобильное"
+              class="block lg:hidden"
+            />
+          </a>
+
+          <nav class="flex items-center">
+            <ul
+              class="hidden 3xl:flex 3xl:list-none 3xl:text-headerGray 3xl:gap-[20px] 3xl:mr-[7px]"
+            >
+              <li
+                class="hover:text-blue hover:underline cursor-pointer text-[16px] leading-[24px]"
+              >
+                <a href="#calculator"> Калькулятор </a>
+              </li>
+              <li class="hover:text-blue hover:underline cursor-pointer">
+                <a href="#requirements"> Условия и требования </a>
+              </li>
+              <li class="hover:text-blue hover:underline cursor-pointer">
+                <a href="services">Услуги </a>
+              </li>
+              <li class="hover:text-blue hover:underline cursor-pointer">
+                <a href="/borrower">Акции </a>
+              </li>
+              <li class="hover:text-blue hover:underline cursor-pointer">
+                <a href="#contacts">Контакты</a>
+              </li>
+            </ul>
+            <div class="flex gap-[12px] lg:gap-[9px] items-center">
+              <form>
+                <select
+                  id="cities"
+                  name="city"
+                  style="
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                  "
+                  class="lg:p-[9px] px-[12px] py-[8px] rounded-[19px] border border-[#D9D9D9] cursor-pointer focus:outline-none text-[10.54px] leading-[14.6px] lg:text-[13px] lg:leading-[18px]"
+                >
+                  <option value="irkutsk" selected>Иркутск</option>
+                  <option value="moscow">Москва</option>
+                </select>
+              </form>
+              <a
+                class="cursor-pointer text-decoration-none text-current -webkit-appearance-none rounded-[52px] lg:p-[14px] p-[4px] border border-[#D9D9D9] flex items-center justify-center"
+              >
+                <img
+                  src="./assets/img/header/whatsapp.svg"
+                  alt="соцсеть"
+                  class="w-[23px] h-[23px]"
+                />
+              </a>
+
+              <div
+                class="lg:px-[16px] lg:py-[10px] px-[12px] py-[8px] rounded-[26px] border border-[#D9D9D9] flex gap-[9px] items-center justify-center"
+              >
+                <img
+                  src="./assets/img/header/phone.svg"
+                  alt="телефон"
+                  class="lg:w-[18px] lg:h-[18px] w-[14px] h-[14px]"
+                />
+                <a
+                  href="tel:79245419090"
+                  class="cursor-pointer text-[10.54px] leading-[14.6px] lg:text-[15px] lg:leading-[32px]"
+                  >7-924-541-90-90</a
+                >
+              </div>
+              <button
+                class="hover:shadow-custom cursor-pointer text-[16px] leading-[32px] bg-blue text-white rounded-[36px] py-[9px] px-[43px] lg:block hidden"
+              >
+                Заказать звонок
+              </button>
+              <a href="/" class="link-reset logo">
+                <img
+                  src="./assets/img/burger.svg"
+                  alt="Бургер"
+                  class="block lg:hidden"
+                />
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section
+      class="bg-whiteGray mb-[20px] sm:mb-[50px] pb-[49px] sm:pb-[201px] sm:pt-[137px] pt-[30px] rounded-[16px] sm:rounded-[40px]"
+    >
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px] pb-[32px]"
+      >
+        <div class="flex sm:flex-row flex-col pb-[24px] items-center">
+          <div class="flex flex-col gap-[24px]">
+            <h1>
+              Получите займ под залог автомобиля в Ируктске всего за 5 мин
+            </h1>
+
+            <p class="text-[18px] leading-[21.78px]">
+              Кредит под залог автомобиля в компании «Национальный кредит» – это
+              выгодное<br />
+              решение для получения срочных финансовых средств. <br /><br />
+              Узнайте, как работает этот вид кредитования, какие преимущества он
+              предоставляет<br />
+              заемщикам, и на что следует обратить внимание перед оформлением.
+            </p>
+            <br />
+          </div>
+
+          <img
+            src="./assets/img/main-car.png"
+            class="sm:w-[680px] sm:h-[366.67px] sm:pt-[88px] w-[296px] h-[160px]"
+          />
+        </div>
+        <button
+          class="hover:shadow-custom cursor-pointer text-[18px] leading-[21.78px] bg-blue text-white rounded-[9px] w-full sm:w-[450px] py-[22px]"
+        >
+          Подробнее
+        </button>
+      </div>
+    </section>
+    <section>
+      <div
+        class="sm:mb-[45px] bg-white bg-cover bg-center bg-no-repeat"
+        style="background-image: url('./assets/img/percent.png')"
+      >
+        <div
+          class="flex flex-col items-center justify-center py-[20px] sm:pt-[144px] sm:pb-[140px] px-[12px] sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+        >
+          <p class="font-bold text-[60px] leading-[61px] sm:block hidden">
+            Оставьте заявку прямо сейчас
+          </p>
+          <p
+            class="text-[22px] leading-[26.63px] pt-[29px] pb-[49px] sm:block hidden"
+          >
+            Наш специалист свяжется в вами в ближайшее время
+          </p>
+          <button
+            class="hover:shadow-custom cursor-pointer text-[18px] leading-[21.78px] bg-blue text-white rounded-[9px] w-full sm:w-[450px] py-[22px]"
+          >
+            Получить деньги
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <h2 class="pb-[98px]">Что такое займ под залог автомобиля</h2>
+        <div class="flex flex-col lg:flex-row flex-wrap gap-[25px]">
+          <div
+            class="bg-whiteGray text-black rounded-[18px] px-[40px] flex flex-col flex-1 relative pb-[30px]"
+          >
+            <img
+              class="w-[100px] h-[100px] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              src="./assets/img/pledge/money.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] font-semibold pb-[23px] pt-[76px]"
+            >
+              Что такое займ под залог авто
+            </p>
+            <p class="leading-[24px] text-[20px]">
+              Займ под залог автомобиля — это один из способов получения
+              кредита, при котором ваш автомобиль выступает в роли обеспечения
+              по займу.
+            </p>
+          </div>
+          <div
+            class="bg-whiteGray text-black rounded-[18px] px-[40px] flex flex-col flex-1 relative pb-[30px]"
+          >
+            <img
+              class="w-[100px] h-[100px] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              src="./assets/img/pledge/human.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] font-semibold pb-[23px] pt-[76px]"
+            >
+              Для кого подойдёт займ под авто
+            </p>
+            <p class="leading-[24px] text-[20px]">
+              Для людей от 18 до 69 лет. С любой кредитной историей для
+              получения денег в срочном порядке и со 100% одобрением
+            </p>
+          </div>
+
+          <div
+            class="bg-whiteGray text-black rounded-[18px] px-[40px] flex flex-col flex-1 relative pb-[30px]"
+          >
+            <img
+              class="w-[100px] h-[100px] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              src="./assets/img/pledge/question.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] font-semibold pb-[23px] pt-[76px]"
+            >
+              Почему стоит выбрать займы под залог авто
+            </p>
+            <p class="leading-[24px] text-[20px]">
+              Преимуществом такого типа займа является возможность получить
+              нужную сумму денег даже если у вас плохая кредитная история,
+              поскольку наличие залога снижает риски для займодателя.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px] py-[64px]"
+      >
+        <h2 class="pb-[37px]">Условия займа без отказа под залог автомобиля</h2>
+        <div
+          class="flex flex-col lg:flex-row flex-wrap sm:gap-[25px] gap-[12px]"
+        >
+          <div
+            class="bg-gradient-to-r from-[#0072CE] to-[#6FBEFD] text-white rounded-[18px] flex flex-col flex-1 items-center gap-[0px] sm:gap-[24px] py-[39px]"
+          >
+            <img
+              class="sm:w-[160px] w-[100px] h-[100px] sm:h-[160px]"
+              src="./assets/img/pledge/percentage.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] sm:leading-[48.41px] sm:text-[40px] font-semibold text-center"
+            >
+              Минимальная ставка
+            </p>
+          </div>
+          <div
+            class="bg-gradient-to-r from-[#0072CE] to-[#6FBEFD] text-white rounded-[18px] flex flex-col flex-1 items-center gap-[0px] sm:gap-[24px] py-[39px]"
+          >
+            <img
+              class="sm:w-[160px] w-[100px] h-[100px] sm:h-[160px]"
+              src="./assets/img/pledge/dollars.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] sm:leading-[48.41px] sm:text-[40px] font-semibold text-center"
+            >
+              Сумма займа
+            </p>
+          </div>
+          <div
+            class="bg-gradient-to-r from-[#0072CE] to-[#6FBEFD] text-white rounded-[18px] flex flex-col flex-1 items-center gap-[0px] sm:gap-[24px] py-[39px]"
+          >
+            <img
+              class="sm:w-[160px] w-[100px] h-[100px] sm:h-[160px]"
+              src="./assets/img/pledge/calendar.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] sm:leading-[48.41px] sm:text-[40px] font-semibold text-center"
+            >
+              Срок залога
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-[20px] sm:mb-[50px]">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl p mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <form
+          action="/submit_form"
+          method="POST"
+          class="bg-whiteGray flex flex-col gap-[50px] items-center justify-center pt-[66px] pb-[43px] rounded-[15px]"
+        >
+          <div
+            class="flex flex-col lg:flex-row gap-[50px] lg:gap-[123px] w-full items-center justify-center"
+          >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Введите имя"
+              class="w-full sm:w-[350px] h-[50px] px-[10px] border border-[#D0D0D0] rounded-[10px] focus:outline-none text-[24px] leading-[29.05px] font-normal"
+            />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              placeholder="Введите телефон"
+              class="w-full sm:w-[350px] h-[50px] px-[10px] border border-[#D0D0D0] rounded-[10px] focus:outline-none text-[24px] leading-[29.05px] font-normal"
+            />
+          </div>
+
+          <button
+            class="hover:shadow-custom cursor-pointer text-[18px] leading-[21.78px] bg-blue text-white rounded-[9px] w-full sm:w-[450px] py-[22px]"
+          >
+            Заказать звонок
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section id="calculator" class="bg-whiteGray sm:py-[73px]">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <div class="flex flex-col lg:flex-row gap-[18px]">
+          <div
+            class="bg-black text-white w-full lg:w-1/2 flex flex-col px-[15px] pt-[35px] pb-[68px] sm:px-[48px] sm:pt-[48px] sm:pb-[81px] rounded-[16px] sm:rounded-[40px]"
+          >
+            <p class="font-medium text-[35.72px] leading-[43.23px] pb-[42px]">
+              Калькулятор ежемесячного платежа
+            </p>
+
+            <label for="loanAmount" class="flex items-center pb-[41px]">
+              <p
+                class="font-medium text-[13.78px] leading-[16.68px] pr-[27.8px]"
+              >
+                Сумма займа:
+              </p>
+              <input
+                type="text"
+                id="loanAmountInput"
+                class="w-[166px] h-[49px] rounded-[9px] text-center text-black text-[17.58px] leading-[21.27px]"
+                value="50 000"
+                min="50000"
+                max="15000000"
+                pattern="\d{1,3}( \d{3})*"
+                oninput="updateLoanAmountFromInput()"
+              />
+              <p class="font-medium text-[14px] leading-[16.94px] pl-[24px]">
+                рублей
+              </p>
+            </label>
+            <input
+              type="range"
+              id="loanAmount"
+              min="50000"
+              max="15000000"
+              step="100"
+              value="50000"
+              class="w-full h-[2px]"
+              oninput="updateLoanAmount()"
+            />
+            <div
+              class="flex justify-between pt-[27px] text-[13.56px] leading-[16.41px] opacity-40"
+            >
+              <span>50 тыс.</span>
+              <span>5 млн</span>
+              <span>10 млн</span>
+              <span>15 млн</span>
+            </div>
+
+            <label for="loanTerm" class="flex items-center pt-[33px] pb-[41px]">
+              <p
+                class="font-medium text-[13.78px] leading-[16.68px] pr-[27.8px]"
+              >
+                Срок займа:
+              </p>
+              <input
+                type="text"
+                id="loanTermInput"
+                class="w-[166px] h-[49px] rounded-[9px] text-center text-black text-[17.58px] leading-[21.27px] focus:outline-none"
+                value="2"
+                oninput="updateLoanTermFromInput()"
+              />
+
+              <p class="font-medium text-[14px] leading-[16.94px] pl-[24px]">
+                месяцев
+              </p>
+            </label>
+            <input
+              type="range"
+              id="loanTerm"
+              min="2"
+              max="60"
+              step="1"
+              value="2"
+              class="w-full h-[2px]"
+              oninput="updateLoanTerm()"
+            />
+            <div
+              class="flex justify-between pt-[27px] text-[13.56px] leading-[16.41px] opacity-40"
+            >
+              <span>2 мес</span>
+              <span>24 мес</span>
+              <span>32 мес</span>
+              <span>48 мес</span>
+              <span>60 мес</span>
+            </div>
+          </div>
+          <div
+            class="w-full lg:w-1/2 rounded-[16px] sm:rounded-[40px] text-white flex flex-col gap-[22px] sm:gap-[46px] items-center py-[43px] sm:py-[84.89px] bg-gradient-to-r from-[#0072CE] to-[#6FBEFD]"
+          >
+            <div class="flex flex-col justify-center items-center">
+              <p class="text-[32px] leading-[38.73px]">Ежемесячный платёж</p>
+              <p class="text-[42px] leading-[50.83px] hidden">
+                <span id="displayLoanAmount">50 000</span> руб.
+              </p>
+
+              <p class="text-[42px] leading-[50.83px]">
+                <span id="totalAmount">0</span> руб.
+              </p>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+              <p class="text-[32px] leading-[38.73px]">Процентная ставка</p>
+              <p class="text-[42px] leading-[50.83px] hidden">
+                <span id="displayLoanTerm">2</span> %
+              </p>
+              <p class="text-[42px] leading-[50.83px]"><span>2</span> %</p>
+            </div>
+            <button
+              class="hover:shadow-custom cursor-pointer text-[16px] leading-[19.34px] px-[40px] py-[18.5px] sm:px-[64px] sm:py-[23.5px] bg-white text-black rounded-[9px] sm:rounded-[18px]"
+            >
+              Получить деньги
+            </button>
+          </div>
+        </div>
+        <h2 class="pt-[19px] pb-[42px] hidden sm:block">
+          Условия получения займа
+        </h2>
+        <p
+          class="text-[35px] leading-[42px] pb-[42px] font-medium hidden sm:block"
+        >
+          Для получения займа под залог автомобиля необходимо выполнить
+          несколько простых шагов: 
+        </p>
+        <ol
+          class="text-[24px] leading-[36px] pb-[10px] pl-[29px] hidden sm:block"
+        >
+          <li>
+            Оценка стоимости автомобиля. Для этого сотрудники банка учтут марку,
+            модель, техническое состояние и год выпуска вашего автомобиля. На
+            основе этих данных будет определена сумма, которую вы сможете взять
+            в качестве займа.
+          </li>
+          <li>Сбор необходимых документов.</li>
+          <li>
+            Отправка заявки. Для нее необходимо подать соответствующий запрос.
+            Сделать это можно через наш сайт, оставив свой номер телефона.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <h2 class="pt-[26px] pb-[28px]">
+          Преимущества взять займ под залог автомобиля в Национальном Кредите
+        </h2>
+        <p class="pb-[29px] font-semibold text-3xl">
+          Займ под залог авто в Национальном Кредите – это кредитный продукт,<br />
+          при котором вы получаете деньги, оставляя свой автомобиль в залог.
+        </p>
+        <div
+          class="justify-center flex flex-wrap gap-[18px] rounded-[1.125rem] 4xl:mx-[-105px] xl:mx-[-10px]"
+        >
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car.svg" />
+            <p class="font-semibold text-3xl">
+              Мы единственные, кто одобряет до 100% от рыночной стоимости
+              автомобиля.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car2.svg" />
+            <p class="font-semibold text-3xl">
+              Нам не важна кредитная история.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car3.svg" />
+            <p class="font-semibold text-3xl">
+              Мы крупная компания, работаем с 2009 года.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car4.svg" />
+            <p class="font-semibold text-3xl">
+              Можем позволить себе индивидуальный подход к каждому клиенту.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car5.svg" />
+            <p class="font-semibold text-3xl">
+              Досрочное погашение на любом этапе, без дополнительных платежей и
+              штрафов.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car6.svg" />
+            <p class="font-semibold text-3xl">
+              Реально одобряем до 15 млн рублей единственные на рынке.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car7.svg" />
+            <p class="font-semibold text-3xl">
+              Договор «Займ-Залог», без оформления ДКП, ДФА, без установки
+              маяков.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car8.svg" />
+            <p class="font-semibold text-3xl">
+              Онлайн-партнер – ехать в офис партнера не нужно.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car9.svg" />
+            <p class="font-semibold text-3xl">
+              Быстрое получение средств после подписания безналичным способом.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car10.svg" />
+            <p class="font-semibold text-3xl">
+              Удобный ЛК. В нем можно видеть всю актуальную информацию по займу
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car11.svg" />
+            <p class="font-semibold text-3xl">
+              ПТС остается на руках клиента, за исключением риск-сегмента
+              категории клиентов
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car12.svg" />
+            <p class="font-semibold text-3xl">
+              Официальная система предоставления займов, контролируемая ЦБ.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car13.svg" />
+            <p class="font-semibold text-3xl">
+              Возможность улучшить кредитную историю.
+            </p>
+          </div>
+          <div
+            class="bg-blue text-white sm:w-[calc(100%)] xl:w-[calc(50%-9px)] 2xl:w-[calc(33.333%-12px)] px-[1.25rem] py-[28.5px] flex rounded-[1.125rem] items-center gap-[0.625rem]"
+          >
+            <img class="w-[6.25rem] h-[6.25rem]" src="./assets/img/car14.svg" />
+            <p class="font-semibold text-3xl">
+              Варианты оплаты на выбор – онлайн или оффлайн
+            </p>
+          </div>
+
+          <!-- Добавьте больше карточек, если нужно -->
+        </div>
+        <p class="text-center pt-[47px] pb-[49px] font-semibold text-3xl">
+          Узнайте, как работает этот вид займов,<br />
+          какие преимущества он предоставляет заемщикам, и на что<br />
+          следует обратить внимание перед оформлением.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="sm:mb-[45px] bg-white bg-cover bg-center bg-no-repeat"
+        style="background-image: url('./assets/img/percent.png')"
+      >
+        <div
+          class="flex flex-col items-center justify-center py-[20px] sm:pt-[144px] sm:pb-[140px] px-[12px] sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+        >
+          <p class="font-bold text-[60px] leading-[61px] sm:block hidden">
+            Оставьте заявку прямо сейчас
+          </p>
+          <p
+            class="text-[22px] leading-[26.63px] pt-[29px] pb-[49px] sm:block hidden"
+          >
+            Наш специалист свяжется в вами в ближайшее время
+          </p>
+          <button
+            class="hover:shadow-custom cursor-pointer text-[18px] leading-[21.78px] bg-blue text-white rounded-[9px] w-full sm:w-[450px] py-[22px]"
+          >
+            Получить деньги
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="requirements">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px] pb-[32px]"
+      >
+        <h2 class="pt-[15px] pb-[34px]">
+          Документы и требования для получения займа под залог автомобиля
+        </h2>
+        <div class="w-full mx-auto">
+          <div class="accordion-item border border-white border-b-border">
+            <button
+              class="cursor-pointer accordion-button w-full text-left py-[17px] hover:bg-whiteGray bg-white focus:outline-none flex justify-between items-center"
+            >
+              <h3>Требования к заемщику</h3>
+              <img src="./assets/img/plus.svg" class="icon-plus" />
+              <img src="./assets/img/minus.svg" class="icon-minus hidden" />
+            </button>
+            <div class="accordion-content bg-white hidden">
+              <ul
+                class="list-disc pl-7 pb-1 text-black leading-[33px] text-[22px]"
+              >
+                <li>Гражданство РФ.</li>
+                <li>
+                  Возрастной порог – не менее 18 лет на момент заключения
+                  сделки.
+                </li>
+                <li>Доступ как физическим лицам, так и юридическим.</li>
+                <li>Нахождение в регионе присутствия компании.</li>
+                <li>Постоянная прописка на территории России.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item border border-white border-b-border">
+            <button
+              class="cursor-pointer accordion-button w-full text-left py-[17px] hover:bg-whiteGray bg-white focus:outline-none flex justify-between items-center"
+            >
+              <h3>Требования к автомобилю</h3>
+              <img src="./assets/img/plus.svg" class="icon-plus" />
+              <img src="./assets/img/minus.svg" class="icon-minus hidden" />
+            </button>
+            <div class="accordion-content bg-white hidden">
+              <ul
+                class="list-disc pl-7 pb-1 text-black leading-[33px] text-[22px]"
+              >
+                <li>Гражданство РФ.</li>
+                <li>
+                  Возрастной порог – не менее 18 лет на момент заключения
+                  сделки.
+                </li>
+                <li>Доступ как физическим лицам, так и юридическим.</li>
+                <li>Нахождение в регионе присутствия компании.</li>
+                <li>Постоянная прописка на территории России.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border border-white">
+          <button
+            class="cursor-pointer accordion-button w-full text-left py-[17px] hover:bg-whiteGray bg-white focus:outline-none flex justify-between items-center"
+          >
+            <h3>Необходимые данные документы</h3>
+            <img src="./assets/img/plus.svg" class="icon-plus" />
+            <img src="./assets/img/minus.svg" class="icon-minus hidden" />
+          </button>
+          <div class="accordion-content bg-white hidden">
+            <ul
+              class="list-disc pl-7 pb-1 text-black leading-[33px] text-[22px]"
+            >
+              <li>Гражданство РФ.</li>
+              <li>
+                Возрастной порог – не менее 18 лет на момент заключения сделки.
+              </li>
+              <li>Доступ как физическим лицам, так и юридическим.</li>
+              <li>Нахождение в регионе присутствия компании.</li>
+              <li>Постоянная прописка на территории России.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black text-white">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px] pb-[32px]"
+      >
+        <h2 class="pt-[59px]">Как получить деньги под залог авто</h2>
+        <div class="lg:ml-[-15px] ml-0">
+          <p class="text-[22px] leading-[33px]">
+            Необходимые данные для заполнения:
+          </p>
+        </div>
+
+        <p class="text-[24px] leading-[36px] font-semibold">Этапы:</p>
+
+        <ol class="pb-[85px] text-[24px] leading-[36px] pl-[29px]">
+          <li>
+            Оценка стоимости автомобиля. Для этого сотрудники банка учтут марку,
+            модель, техническое состояние и год выпуска вашего автомобиля. На
+            основе этих данных будет определена сумма, которую вы сможете взять
+            в качестве займа.
+          </li>
+          <li>Сбор необходимых документов.</li>
+          <li>
+            Отправка заявки. Для нее необходимо подать соответствующий запрос.
+            Сделать это можно через наш сайт, оставив свой номер телефона.
+          </li>
+        </ol>
+
+        <ul class="text-[22px] leading-[33px] pb-[104px] pl-[20px]">
+          <li>ФИО клиента.</li>
+          <li>Дата и место рождения.</li>
+          <li>Паспортные данные.</li>
+          <li>Адрес регистрации на территории РФ.</li>
+          <li>Тип трудоустройства, должность, контакты работодателя.</li>
+          <li>Телефонный номер.</li>
+          <li>Сведения о машине.</li>
+        </ul>
+
+        <p class="lg:pl-[59px] text-[22px] leading-[33px] xs:pl-0">
+          Условия получения займа под залог автомобиля – простые и удобные для
+          клиента.
+        </p>
+      </div>
+    </section>
+
+    <section class="sm:mt-[30px] sm:mb-[66px] my-[20px]">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <h2 class="pb-[85px]">Наши преимущества</h2>
+        <div class="flex flex-col lg:flex-row flex-wrap gap-[25px]">
+          <div
+            class="bg-whiteGray text-black rounded-[18px] px-[40px] flex flex-col flex-1 relative pb-[84px]"
+          >
+            <img
+              class="w-[100px] h-[100px] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              src="./assets/img/advantages/agreement.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] font-semibold pb-[34px] pt-[98px]"
+            >
+              Процентная ставка
+            </p>
+            <p class="leading-[24px] text-[20px]">
+              Ставки в нашей компании остаются одними из самых демократичных на
+              рынке
+            </p>
+          </div>
+          <div
+            class="bg-whiteGray text-black rounded-[18px] px-[40px] flex flex-col flex-1 relative pb-[84px]"
+          >
+            <img
+              class="w-[100px] h-[100px] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              src="./assets/img/advantages/contract.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] font-semibold pb-[34px] pt-[98px]"
+            >
+              Автомобили разной категории
+            </p>
+            <p class="leading-[24px] text-[20px]">
+              Выдаем деньги под: мотоциклы, спецтехнику, легковые, грузовые,
+              коммерческие автомобили
+            </p>
+          </div>
+          <div
+            class="bg-whiteGray text-black rounded-[18px] px-[40px] flex flex-col flex-1 relative pb-[84px]"
+          >
+            <img
+              class="w-[100px] h-[100px] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              src="./assets/img/advantages/handshake.svg"
+            />
+            <p
+              class="leading-[33.89px] text-[28px] font-semibold pb-[34px] pt-[98px]"
+            >
+              Всегда на стороне клиента
+            </p>
+            <p class="leading-[24px] text-[20px]">
+              Рефинансирование, менеджер всегда на связи по любым вопросам!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="sm:mb-[45px] bg-white bg-cover bg-center bg-no-repeat"
+        style="background-image: url('./assets/img/percent.png')"
+      >
+        <div
+          class="flex flex-col items-center justify-center py-[20px] sm:pt-[144px] sm:pb-[140px] px-[12px] sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+        >
+          <p class="font-bold text-[60px] leading-[61px] sm:block hidden">
+            Оставьте заявку прямо сейчас
+          </p>
+          <p
+            class="text-[22px] leading-[26.63px] pt-[29px] pb-[49px] sm:block hidden"
+          >
+            Наш специалист свяжется в вами в ближайшее время
+          </p>
+          <button
+            class="hover:shadow-custom cursor-pointer text-[18px] leading-[21.78px] bg-blue text-white rounded-[9px] w-full sm:w-[450px] py-[22px]"
+          >
+            Получить деньги
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sm:mt-[147px] sm:mb-0 my-[20px]">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <di
+          class="flex flex-col sm:flex-row items-center justify-between mb-[20px] sm:mb-[0px]"
+        >
+          <h2 class="pb-[42px]">Отзывы</h2>
+          <button
+            class="hover:shadow-custom cursor-pointer text-[18px] leading-[21.78px] bg-blue text-white rounded-[9px] w-full sm:w-[372px] py-[20px]"
+          >
+            Читать все отзывы на Яндекс Картах
+          </button>
+        </di>
+
+        <div class="flex flex-col lg:flex-row flex-wrap gap-[18px]">
+          <div
+            class="bg-whiteGray text-black rounded-[40px] p-[40px] flex gap-[32px] flex-col flex-1 relative"
+          >
+            <p class="text-[16px] leading-[19.36px] font-semibold">
+              Хочу выразить благодарность сотрудникам
+            </p>
+            <p class="text-[14px] leading-[16.94px]">
+              Здравствуйте, хочу выразить благодарность сотрудникам, которые
+              работают в данной организации, так как выручают уже не первый раз.
+              Всегда все доступно объясняют и грамотно подсказывают как будет
+              лучше. В общем, от компании остались только хорошие впечатления.
+              Рекомендую и желаю дальнейшего процветания.
+            </p>
+            <div class="flex items-center gap-[27px]">
+              <p class="text-[12px] leading-[14.52px]">Ирина Очирова</p>
+              <img class="w-[80px] h-[16px]" src="./assets/img/stars.svg" />
+            </div>
+          </div>
+          <div
+            class="bg-whiteGray text-black rounded-[40px] p-[40px] flex gap-[32px] flex-col flex-1 relative"
+          >
+            <p class="text-[16px] leading-[19.36px] font-semibold">
+              Решил все свои проблемы
+            </p>
+            <p class="text-[14px] leading-[16.94px]">
+              Срочно потребовались деньги для погашения задолженности по
+              кредиту. Обратился в компанию за услугой выдачи средств под залог
+              птс. Одобрили нужную сумму - 75 тысяч рублей, перевели в день
+              обращения на карту. Условия финансирования весьма лояльные,
+              минимальный пакет документов: ПТС, СТС, паспорт РФ. Решил все свои
+              проблемы.
+            </p>
+            <div class="flex items-center gap-[27px]">
+              <p class="text-[12px] leading-[14.52px]">Андрей Саратов</p>
+              <img class="w-[80px] h-[16px]" src="./assets/img/stars.svg" />
+            </div>
+          </div>
+          <div
+            class="bg-whiteGray text-black rounded-[40px] p-[40px] flex gap-[32px] flex-col flex-1 relative"
+          >
+            <p class="text-[16px] leading-[19.36px] font-semibold">
+              Порадовало срочное рассмотрение
+            </p>
+            <p class="text-[14px] leading-[16.94px]">
+              Проблемы, решился взять деньги под ПТСку. Заполнил заявку на
+              сайте, менеджер перезвонила и уточнила еще раз данные. Пригласила
+              подъехать и оформить договор. Порадовало срочное рассмотрение,
+              деньги на карту поступили в этот же день. Сервис.
+            </p>
+            <div class="flex items-center gap-[27px]">
+              <p class="text-[12px] leading-[14.52px]">Артем Пугачев</p>
+              <img class="w-[80px] h-[16px]" src="./assets/img/stars.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <h2 class="pt-[30px] pb-[35px]">Контакты</h2>
+        <div class="flex flex-col lg:flex-row flex-wrap gap-[26px]">
+          <div
+            class="bg-white text-blue rounded-[20px] flex flex-col gap-[22px] px-[20px] py-[30px] border border-blue justify-between items-center flex-1"
+          >
+            <img
+              class="w-[60px] h-[60px]"
+              src="./assets/img/contacts/telegram.svg"
+            />
+            <p class="leading-[36px] text-[30px] text-center">
+              Горная ул., 4, БЦ На Горной, офис 303, этаж 3
+            </p>
+          </div>
+          <div
+            class="bg-white text-blue rounded-[20px] flex flex-col gap-[22px] px-[20px] py-[30px] border border-blue items-center flex-1"
+          >
+            <img
+              class="w-[60px] h-[60px]"
+              src="./assets/img/contacts/phone.svg"
+            />
+            <p class="leading-[36px] text-[30px] text-center">
+              8 (495) 260-4601
+            </p>
+          </div>
+          <div
+            class="bg-white text-blue rounded-[20px] flex flex-col gap-[22px] px-[20px] py-[30px] border border-blue items-center flex-1"
+          >
+            <img
+              class="w-[60px] h-[60px]"
+              src="./assets/img/contacts/whatsapp.svg"
+            />
+            <p class="leading-[36px] text-[30px] text-center">
+              8 (495) 260-4601
+            </p>
+          </div>
+          <div
+            class="bg-white text-blue rounded-[20px] flex flex-col gap-[22px] px-[20px] py-[30px] border border-blue items-center flex-1"
+          >
+            <img
+              class="w-[60px] h-[60px]"
+              src="./assets/img/contacts/time.svg"
+            />
+            <p class="leading-[2.25rem] text-[1.875rem] text-center">
+              Пн-Пт с 10:00 до 19:00, Сб-Вс выходные
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px] py-[50px]"
+      >
+        <div class="border border-blue">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A0deebee99905660a92d2c8a8a206f43b4dd864ed690985c3d041265f6c73b47e&amp;source=constructor"
+            width="100%"
+            height="557"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white my-[20px] sm:mb-[90px] sm:mt-[50]">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px] pb-[32px]"
+      >
+        <div class="bg-white w-full">
+          <div class="flex gap-[4px] text-blue">
+            <button
+              class="active-tab text-white tablinks border border-blue rounded-tl-[20px] rounded-tr-[20px] lg:py-[21px] py-[9px] w-[317px]"
+              onclick="openTab(event, 'credits')"
+            >
+              Кредиты
+            </button>
+            <button
+              class="tablinks border border-blue rounded-tl-[20px] rounded-tr-[20px] lg:py-[21px] py-[9px] w-[317px]"
+              onclick="openTab(event, 'loans')"
+            >
+              Займы
+            </button>
+            <button
+              class="tablinks border border-blue rounded-tl-[20px] rounded-tr-[20px] lg:py-[21px] py-[9px] w-[317px]"
+              onclick="openTab(event, 'business')"
+            >
+              Для бизнеса
+            </button>
+            <button
+              class="tablinks border border-blue rounded-tl-[20px] rounded-tr-[20px] lg:py-[21px] py-[9px] w-[317px]"
+              onclick="openTab(event, 'money')"
+            >
+              Деньги без залога
+            </button>
+            <button
+              class="tablinks border border-blue rounded-tl-[20px] rounded-tr-[20px] lg:py-[21px] py-[9px] w-[317px]"
+              onclick="openTab(event, 'car')"
+            >
+              Под залог Авто
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="credits"
+          class="tabcontent bg-whiteGray border-whiteGray rounded-bl-[40px] rounded-br-[40px] lg:py-[72px] pt-[23px] pb-[35px] lg:px-[48px] px-[12px] relative"
+        >
+          <p
+            class="lg:text-[26px] lg:leading-[31.47px] text-[23px] leading-[22px] font-medium"
+          >
+            <strong>Ставка</strong> - от 8,9% в год<br /><br />
+            <strong>Сумма</strong> - от от 30 000 ₽ до 5 млн ₽<br /><br />
+            <strong>Деньги у вас</strong> - через 1 час<br /><br />
+            <strong>Кредитная история</strong> - хорошая<br /><br />
+            <strong>Ставка</strong> - ПТС Авто<br /><br />
+          </p>
+          <div class="flex flex-col lg:flex-row lg:gap-[25px] gap-[12px]">
+            <button
+              class="hover:shadow-custom cursor-pointer lg:text-[24px] lg:leading-[29.05px] text-[23px] leading-[22px] bg-blue text-white rounded-[9px] pb-[18px] pt-[13px] px-[69px]"
+            >
+              Получить деньги
+            </button>
+            <button
+              class="hover:shadow-custom cursor-pointer lg:text-[24px] lg:leading-[29.05px] text-[23px] leading-[22px] bg-black text-white rounded-[9px] pb-[18px] pt-[13px] px-[103px]"
+            >
+              Подробнее
+            </button>
+            <img
+              class="w-[500px] h-[487px] absolute top-[13px] right-[78px] hidden 2xl:block"
+              src="./assets/img/loans.svg"
+              alt="Лого"
+            />
+          </div>
+        </div>
+
+        <div
+          id="loans"
+          class="tabcontent hidden bg-whiteGray border-whiteGray rounded-bl-[20px] rounded-br-[20px]"
+        >
+          <h3>Займы</h3>
+          <p>Содержимое вкладки "Займы"...</p>
+        </div>
+
+        <div
+          id="business"
+          class="tabcontent hidden bg-whiteGray border-whiteGray rounded-bl-[20px] rounded-br-[20px]"
+        >
+          <h3>Для бизнеса</h3>
+          <p>Содержимое вкладки "Для бизнеса"...</p>
+        </div>
+
+        <div
+          id="money"
+          class="tabcontent hidden bg-whiteGray border-whiteGray rounded-bl-[20px] rounded-br-[20px]"
+        >
+          <h3>Деньги без залога</h3>
+          <p>Содержимое вкладки "Деньги без залога"...</p>
+        </div>
+
+        <div
+          id="car"
+          class="tabcontent hidden bg-whiteGray border-whiteGray rounded-bl-[20px] rounded-br-[20px]"
+        >
+          <h3>Под залог Авто</h3>
+          <p>Содержимое вкладки "Под залог Авто"...</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black text-white text-opacity-70 sm:py-[60px] py-[31px]">
+      <div
+        class="sm:max-w-container-sm md:max-w-container-md lg:max-w-container-lg xl:max-w-container-xl 2xl:max-w-container-2xl 3xl:max-w-container-3xl 4xl:max-w-container-4xl mr-auto ml-auto xs:px-[12px] sm:px-[0px]"
+      >
+        <p class="pb-[50px] text-[15.75px] leading-[21.76px]">
+          Информация о финансовых, лизинговых и иных услугах партнеров ИП
+          Намолов, размещенная на сайте https://nationalcredit.ru имеет
+          ознакомительный характер. Конечные условия уточняйте при прямом
+          общении с организациями, оказывающими услуги. Партнерские услуги
+          оказывает ООО МКК "ЕСП АвтоКэш" (Регистрационный номер записи в
+          государственном реестре микрофинансовых организаций 2103045009684 от
+          07.06.2021г, свидетельство СРО МФО 2085) Услугу по выдаче займа под
+          залог авто предоставляет: Общество с ограниченной ответственностью
+          «АВТОЛОМБАРД 71» (ООО «АВТОЛОМБАРД 71»), ИНН 0323411833, ОГРН
+          1190327015119, место нахождения: 670031, Республика Бурятия,
+          г.Улан-Удэ, ул. Трубачеева, д. 71, офис 1
+        </p>
+        <div class="flex xl:flex-row flex-col justify-between">
+          <div>
+            <img
+              src="./assets/img/arms.svg"
+              alt="герб"
+              class="w-[40px] h-[44.36px]"
+            />
+            <p class="text-[16px] leading-[21.76px] py-[20px]">
+              Персональные данные защищены<br />
+              Официальный оператор по обработке<br />
+              Персональных данных
+            </p>
+          </div>
+          <div class="flex items-center xl:gap-[70px] gap-[30px]">
+            <ul class="flex-col list-none gap-[10px] xl:flex hidden">
+              <li
+                class="hover:underline cursor-pointer text-[16px] leading-[24px]"
+              >
+                <a href="#calculator"> Калькулятор </a>
+              </li>
+              <li class="hover:underline cursor-pointer">
+                <a href="#requirements"> Условия и требования </a>
+              </li>
+              <li class="hover:underline cursor-pointer">
+                <a href="services">Услуги </a>
+              </li>
+              <li class="hover:underline cursor-pointer">
+                <a href="/borrower">Акции </a>
+              </li>
+              <li class="hover:underline cursor-pointer">
+                <a href="#contacts">Контакты</a>
+              </li>
+            </ul>
+            <div class="flex gap-[15px] items-center">
+              <a
+                class="cursor-pointer text-decoration-none text-current -webkit-appearance-none rounded-[52px] p-[14px] border border-[#D9D9D9] flex items-center justify-center"
+              >
+                <img
+                  src="./assets/img/header/whatsapp.svg"
+                  alt="соцсеть"
+                  class="w-[24px] h-[24px]"
+                />
+              </a>
+
+              <div
+                class="px-[16px] py-[13px] rounded-[26px] border border-[#D9D9D9] gap-[9px] items-center justify-center xl:flex hidden"
+              >
+                <img
+                  src="./assets/img/header/phone.svg"
+                  alt="телефон"
+                  class="w-[18px] h-[18px]"
+                />
+                <a href="tel:79245419090" class="cursor-pointer"
+                  >7-924-541-90-90</a
+                >
+              </div>
+              <button
+                class="hover:shadow-custom cursor-pointer text-[16px] leading-[32px] bg-blue text-white rounded-[36px] py-[9px] px-[43px] xl:flex hidden"
+              >
+                Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex justify-center xl:justify-start pt-[20px] xl:pt-[0px] opacity-40"
+        >
+          <small>© 2021—2023 ИП Намолов</small>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const buttons = document.querySelectorAll(".accordion-button");
+
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const content = button.nextElementSibling;
+            const iconPlus = button.querySelector(".icon-plus");
+            const iconMinus = button.querySelector(".icon-minus");
+
+            // Toggle the current button's content
+            if (content.classList.contains("hidden")) {
+              content.classList.remove("hidden");
+              iconPlus.classList.add("hidden");
+              iconMinus.classList.remove("hidden");
+            } else {
+              content.classList.add("hidden");
+              iconPlus.classList.remove("hidden");
+              iconMinus.classList.add("hidden");
+            }
+
+            // Hide other contents and reset icons
+            buttons.forEach((btn) => {
+              if (btn !== button) {
+                const btnContent = btn.nextElementSibling;
+                const btnIconPlus = btn.querySelector(".icon-plus");
+                const btnIconMinus = btn.querySelector(".icon-minus");
+                btnContent.classList.add("hidden");
+                btnIconPlus.classList.remove("hidden");
+                btnIconMinus.classList.add("hidden");
+              }
+            });
+          });
+        });
+      });
+    </script>
+    <script>
+      // Функция форматирования числа с разделением тысяч
+      function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+      }
+
+      // Функция для обновления общей суммы
+      function updateTotalAmount() {
+        const displayLoanAmount = parseInt(
+          document
+            .getElementById("displayLoanAmount")
+            .innerText.replace(/\s+/g, "")
+        );
+        const displayLoanTerm = parseInt(
+          document.getElementById("displayLoanTerm").innerText
+        );
+        if (displayLoanTerm > 0) {
+          // Проверка чтобы избежать деления на ноль
+          const totalAmount =
+            displayLoanAmount / displayLoanTerm + 0.02 * displayLoanAmount;
+          document.getElementById("totalAmount").innerText = formatNumber(
+            totalAmount.toFixed(2)
+          );
+        }
+      }
+
+      // Обновление суммы кредита
+      function updateLoanAmount() {
+        const loanAmount = document.getElementById("loanAmount").value;
+        // Обновление элемента ввода
+        document.getElementById("loanAmountInput").value =
+          formatNumber(loanAmount);
+        // Обновление отображаемой суммы
+        document.getElementById("displayLoanAmount").innerText = formatNumber(
+          +loanAmount
+        );
+        // Обновление общей суммы
+        updateTotalAmount();
+      }
+
+      // Обновление суммы кредита из поля ввода
+      function updateLoanAmountFromInput() {
+        let loanAmountInput = document
+          .getElementById("loanAmountInput")
+          .value.replace(/\s+/g, "");
+        if (!isNaN(loanAmountInput) && loanAmountInput !== "") {
+          // Ограничение значений суммы кредита
+          const loanAmount = Math.min(
+            Math.max(parseInt(loanAmountInput), 50000),
+            15000000
+          );
+          // Обновление значения элемента кредита
+          document.getElementById("loanAmount").value = loanAmount;
+          // Обновление элемента ввода с форматированием
+          document.getElementById("loanAmountInput").value =
+            formatNumber(loanAmount);
+          // Обновление отображаемой суммы
+          document.getElementById("displayLoanAmount").innerText =
+            formatNumber(loanAmount);
+          // Обновление общей суммы
+          updateTotalAmount();
+        } else {
+          // Если введены некорректные данные, восстанавливаем предыдущее значение
+          document.getElementById("loanAmountInput").value = formatNumber(
+            document.getElementById("loanAmount").value
+          );
+        }
+      }
+
+      // Обновление срока кредита
+      function updateLoanTerm() {
+        const loanTerm = document.getElementById("loanTerm").value;
+        // Обновление элемента ввода
+        document.getElementById("loanTermInput").value = loanTerm;
+        // Обновление отображаемого срока
+        document.getElementById("displayLoanTerm").innerText = loanTerm;
+        // Обновление общей суммы
+        updateTotalAmount();
+      }
+
+      // Обновление срока кредита из поля ввода
+      function updateLoanTermFromInput() {
+        let loanTermInput = document.getElementById("loanTermInput").value;
+        if (!isNaN(loanTermInput) && loanTermInput !== "") {
+          // Ограничение значений срока кредита
+          const loanTerm = Math.min(Math.max(parseInt(loanTermInput), 2), 60);
+          // Обновление значения элемента срока кредита
+          document.getElementById("loanTerm").value = loanTerm;
+          // Обновление элемента ввода срока кредита
+          document.getElementById("loanTermInput").value = loanTerm;
+          // Обновление отображаемого срока кредита
+          document.getElementById("displayLoanTerm").innerText = loanTerm;
+          // Обновление общей суммы
+          updateTotalAmount();
+        } else {
+          // Если введены некорректные данные, восстанавливаем предыдущее значение
+          document.getElementById("loanTermInput").value =
+            document.getElementById("loanTerm").value;
+        }
+      }
+
+      // Инициализация начальных значений
+      updateLoanAmount();
+      updateLoanTerm();
+    </script>
+
+    <script>
+      function openTab(evt, tabName) {
+        let tabcontent = document.getElementsByClassName("tabcontent");
+        for (let i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].classList.add("hidden");
+        }
+
+        let tablinks = document.getElementsByClassName("tablinks");
+        for (let i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active-tab");
+          tablinks[i].classList.remove("text-white");
+        }
+
+        document.getElementById(tabName).classList.remove("hidden");
+        evt.currentTarget.classList.add("active-tab");
+        evt.currentTarget.classList.add("text-white");
+      }
+    </script>
+  </body>
+</html>
